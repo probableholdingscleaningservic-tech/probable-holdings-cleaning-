@@ -20,41 +20,85 @@
 </header>
 
 <section class="services-section">
-<h2>Online Booking & Contact</h2>
-<div class="contact">
-<p style="text-align:center; font-weight:bold;">Book our services using the form below:</p>
+  <h2>Contact Us</h2>
 
-<form action="mailto:probableholdingscleaningservices@gmail.com" method="post" enctype="text/plain">
-  <label for="name">Full Name</label>
-  <input type="text" id="name" name="Full Name" required>
+  <div class="contact" style="text-align:center;">
 
-  <label for="email">Email</label>
-  <input type="email" id="email" name="Email" required>
+    <p style="font-size:20px; font-weight:bold;">
+      Probable Holdings Cleaning Services
+    </p>
 
-  <label for="phone">Phone Number</label>
-  <input type="tel" id="phone" name="Phone Number" required>
+    <!-- Email -->
+    <p>
+      📧 <strong>Email</strong><br>
+      <a href="mailto:probableholdingscleaningservices@gmail.com">
+        probableholdingscleaningservices@gmail.com
+      </a>
+    </p>
 
-  <label for="service">Service Required</label>
-  <select id="service" name="Service">
-    <option>Residential Cleaning</option>
-    <option>Office Cleaning</option>
-    <option>Deep Cleaning</option>
-    <option>Laundry Services</option>
-  </select>
+    <!-- Call Button -->
+    <p>
+      📞 <strong>Call Us</strong><br>
+      <a href="tel:+27679961990" 
+         class="btn" 
+         style="font-size:18px; padding:18px 35px;">
+        Call Now
+      </a>
+    </p>
 
-  <label for="message">Message / Details</label>
-  <textarea id="message" name="Message" rows="4" placeholder="Any special requests"></textarea>
+    <!-- WhatsApp Button -->
+    <p>
+      💬 <strong>WhatsApp Booking</strong><br>
+      <a href="https://wa.me/27679961990" 
+         class="btn" 
+         style="background:#25d366; color:white; font-size:18px; padding:18px 35px;">
+        Book via WhatsApp
+      </a>
+    </p>
 
-  <button type="submit">Submit Booking</button>
-</form>
+    <!-- Business Hours -->
+    <p style="margin-top:25px;">
+      🕒 <strong>Business Hours</strong><br>
+      Monday – Friday: 06:30 – 17:30<br>
+      Saturday: 07:00 – 15:00<br>
+      Sunday: Closed
+    </p>
 
-<p style="text-align:center; margin-top:15px; font-weight:bold;">
-Email: probableholdingscleaningservic@gmail.com<br>
-WhatsApp: +27 67 996 1990
-</p>
-</div>
+    <!-- Google Map Pretoria -->
+    <div style="margin-top:35px;">
+      <h3>Service Area – Pretoria</h3>
+      <iframe
+        src="https://www.google.com/maps?q=Pretoria,%20South%20Africa&output=embed"
+        width="100%"
+        height="320"
+        style="border:0; border-radius:10px;"
+        loading="lazy">
+      </iframe>
+      <p style="font-size:14px; margin-top:10px;">
+        We proudly serve Pretoria and surrounding areas.
+      </p>
+    </div>
+
+  </div>
 </section>
 
+<!-- Floating Call Button -->
+<a href="tel:+27679961990"
+   style="
+     position:fixed;
+     bottom:90px;
+     right:20px;
+     background:#0d47a1;
+     color:white;
+     padding:16px 22px;
+     border-radius:50px;
+     font-weight:bold;
+     text-decoration:none;
+     box-shadow:0 4px 10px rgba(0,0,0,0.3);
+     z-index:999;
+   ">
+  📞 Call Now
+</a>
 <footer>
 <p>&copy; 2026 Probable Holdings Cleaning Services. All Rights Reserved.</p>
 </footer>
@@ -62,4 +106,5 @@ WhatsApp: +27 67 996 1990
 <a class="whatsapp" href="https://wa.me/27679961990">WhatsApp Us</a>
 
 </body>
+
 </html>
